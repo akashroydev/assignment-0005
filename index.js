@@ -15,37 +15,6 @@ for (const button of buttons) {
 
 
 
-let addcoin = 100;
-
-document.addEventListener("DOMContentLoaded", function(){
-const buttons = document.querySelectorAll(".call-btn-click");
-const addCoin = document.getElementById("addcoin");
-
-for (const button of buttons) {
-    button.addEventListener("click", function(){
-        if (addcoin >= 20) {
-            addcoin -= 20;
-            addCoin.textContent = `Coins: ${addcoin}`;
-        }
-        else {
-            alert("Sorry you're out of coins !")
-        }
-    });
-}
-});
-
-const cardbtns = document.getElementsByClassName("card");
-
-for (let cardButton of cardbtns){
-    cardButton.addEventListener("click", function () {
-
-    })
-}
-
-
-
-
-
 
 
 
